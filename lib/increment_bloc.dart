@@ -28,7 +28,7 @@ class IncrementBloc extends Bloc<IncrementEvent, IncrementState> {
 
   Future setNewDecrement(Decrement event, IncrementState state,
       Emitter<IncrementState> emit) async {
-    int decrementedCounter = event.counter - 1;
+    int decrementedCounter = event.counterMinus - 2;
 
     emit(state.copyWith(
         counter: decrementedCounter,

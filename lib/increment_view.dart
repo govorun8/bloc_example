@@ -58,7 +58,7 @@ class _IncrementPageState extends State<IncrementPage> {
                       onTap: (() {
                         context
                             .read<IncrementBloc>()
-                            .add(Decrement(counter: state.counter));
+                            .add(Decrement(counterMinus: state.counter));
                       }),
                       child: Container(
                         width: 100,

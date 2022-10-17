@@ -12,6 +12,6 @@ class Increment extends IncrementEvent {
 }
 
 class Decrement extends IncrementEvent {
-  final int counter;
-  const Decrement({required this.counter});
+  final int counterMinus;
+  const Decrement({required this.counterMinus});
 }
