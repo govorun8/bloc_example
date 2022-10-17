@@ -7,8 +7,8 @@ abstract class IncrementEvent extends Equatable {
 }
 
 class Increment extends IncrementEvent {
-  final int counter;
-  const Increment({required this.counter});
+  final int counterPlus;
+  const Increment({required this.counterPlus});
 }
 
 class Decrement extends IncrementEvent {
