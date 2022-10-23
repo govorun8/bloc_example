@@ -1,5 +1,5 @@
-import 'package:bloc_example/increment_event.dart';
-import 'package:bloc_example/increment_view.dart';
+import 'package:bloc_example/increment/increment_event.dart';
+import 'package:bloc_example/increment/increment_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {

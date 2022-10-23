@@ -1,6 +1,6 @@
-import 'package:bloc_example/increment_bloc.dart';
-import 'package:bloc_example/increment_event.dart';
-import 'package:bloc_example/increment_state.dart';
+import 'package:bloc_example/increment/increment_bloc.dart';
+import 'package:bloc_example/increment/increment_event.dart';
+import 'package:bloc_example/increment/increment_state.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
